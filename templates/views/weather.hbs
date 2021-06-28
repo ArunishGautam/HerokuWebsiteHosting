@@ -18,8 +18,8 @@
             </div>
             <div class="tempInformation">
                 <div class="top_layer">
-                    <p id="day">Tuesday</p>
-                    <p id="date">JUNE 14  |20:20PM</p>
+                    <p id="day" style="color: #eccc68">Tuesday</p>
+                    <p id="date" style="color: #eccc68">Mon | JUNE 14  |20:20PM</p>
                 </div>
                 <div class="main_layer">
                     <p id="city_name">Get Output More</p>
@@ -78,6 +78,7 @@
            // console.log(month + "/" + day);
            return `${month} ${date}  |  ${hours}:${min}${periods}`;
         };
+         curDate.innerHTML =   getCurrentTime();
 </script>
 </body>
 </html>
